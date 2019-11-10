@@ -926,6 +926,7 @@ nav a:hover{
     width: 150px;
     float: left; 
     padding: 20px; 
+    margin-top: -10px;
     
 }
 .img {
@@ -978,7 +979,7 @@ grid-template-columns: 0.5fr 5fr 1fr 0.5fr 1fr;
     padding-left: 50px; 
     padding-right: 50px; 
     padding-bottom: 30px;
-    padding-top: 100px;
+    padding-top: 70px;
     margin-top: -15px;
     border-bottom: 0px solid white;
     
@@ -1280,7 +1281,7 @@ div.gallery img {
 
 .flip-card-back {
   background-image: url("../images/invertedbackground3.png");
-    border: 5px #aaaaaa solid;
+    border: 5px #2f2f2f solid;
   color: white;
   transform: rotateY(180deg);
 }
