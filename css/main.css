@@ -309,7 +309,7 @@ header{
 
 
 .content b{
-    color: #FF6B6B;
+    color: #C44D58;
     font-weight: bold;
 }
 .content h2{
@@ -683,10 +683,6 @@ header{
 }
 
 
-.content b{
-    color: #FF6B6B;
-    font-weight: bold;
-}
 .content h2{
   font-size: 30px;
     font-family: lato;
@@ -975,15 +971,16 @@ grid-template-columns: 0.5fr 5fr 1fr 0.5fr 1fr;
 .nav{
    grid-column: 1/span 6;
     align-items: center;
-    grid-row: 2/span 1;
+    grid-row: 1/span 1;
     background: transparent;
   padding-top: 20px; 
   text-align: right; 
     padding-left: 50px; 
     padding-right: 50px; 
     padding-bottom: 30px;
+    padding-top: 100px;
     margin-top: -15px;
-    border-bottom: 1px solid #ffffff; 
+    border-bottom: 0px solid white;
     
 }
 
@@ -1054,10 +1051,6 @@ header p{
 }
 
 
-.content b{
-    color: #FF6B6B;
-    font-weight: bold;
-}
 .content h2{
   font-size: 40px;
     font-family: lato;
