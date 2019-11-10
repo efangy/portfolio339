@@ -876,7 +876,7 @@ div.gallery img {
 h1{
   font-size: 50px;
   line-height: 1;
-  padding: 50px 0;
+  padding: 25px 0;
   text-align: center;
     
 }
@@ -915,7 +915,7 @@ a.navi:hover {
 }
 nav ul{
   list-style-type: none;
-    color: #FFFFFF;
+    
 }
 
 nav li{
@@ -923,22 +923,23 @@ nav li{
   padding-right:20px;
   text-decoration: none;
     font-size: 20px;
-    color: #FFFFFF;
+    
 }
 nav li:hover{
     text-decoration:none;
 }
 
 nav a{
-  color: black;
   font-family: lato;
   text-decoration: none;
-    color: #FFFFFF;
+  color: #FFFFFF;
+    
 }
 
 nav a:hover{
   text-decoration:none;
-    background: #2a2a2a;
+    color: #eeeeee;
+    background: #2f2f2f;
 }
 
 .skip a{
@@ -1006,14 +1007,14 @@ grid-template-columns: 0.5fr 5fr 1fr 0.5fr 1fr;
 .nav{
    grid-column: 1/span 6;
     align-items: center;
-    grid-row: 1/span 1;
+    grid-row: 2/span 1;
     background: transparent;
   padding-top: 20px; 
   text-align: right; 
     padding-left: 50px; 
     padding-right: 50px; 
     padding-bottom: 30px;
-    padding-top: 35px;
+    
     margin-top: -15px;
     border-bottom: 0px solid white;
     
@@ -1316,7 +1317,7 @@ div.gallery img {
 
 .flip-card-back {
   background-image: url("../images/invertedbackground3.png");
-    border: 5px #2f2f2f solid;
+    
   color: white;
   transform: rotateY(180deg);
 }
