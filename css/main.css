@@ -1246,10 +1246,9 @@ div.gallery img {
     
   
 .flip-card {
-  background-color: transparent;
+  background-color: black;
   width: 33%;
   height: 400px;
-  border: 1px solid #000000;
   perspective: 1000px; 
     float: left;
 }
@@ -1292,14 +1291,14 @@ div.gallery img {
 
 .flip-card-front {
     background-image: url("../images/hashtag.jpg");
-  background-color: #bbb;
+  background-color: #000000;
   color: black;
 }
     
 .flip-card-front2 {
     background-image: url("../images/barcelona3.jpg");
     background-size: auto 100%;
-  background-color: #bbb;
+  background-color: #000000;
   color: black;
 }
     
@@ -1307,7 +1306,7 @@ div.gallery img {
 .flip-card-front3 {
     background-image: url("../images/lucidchart.png");
     background-size: auto 100%;
-  background-color: #bbb;
+  background-color: #000000;
   color: black;
 }
 
