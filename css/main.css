@@ -12,10 +12,10 @@ body{
  
   
 .flip-card {
-  background-color: transparent;
+  background-color: black;
   width: 100%;
   height: 200px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #000000;
   perspective: 1000px; 
     float: left;
 }
@@ -59,14 +59,14 @@ body{
 
 .flip-card-front {
     background-image: url("../images/hashtag.jpg");
-  background-color: #bbb;
+  background-color: #000000;
   color: black;
 }
     
 .flip-card-front2 {
     background-image: url("../images/barcelona5.jpg");
     background-size: auto 100%;
-  background-color: #bbb;
+  background-color: #000000;
   color: black;
 }
     
@@ -74,7 +74,7 @@ body{
 .flip-card-front3 {
     background-image: url("../images/lucidchart.png");
     background-size: auto 100%;
-  background-color: #bbb;
+  background-color: #000000;
   color: black;
 }
 
