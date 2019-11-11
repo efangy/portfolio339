@@ -6,7 +6,7 @@ body{
   font-size: 18px;
   margin: 0;
   padding: 0;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     line-height: 25px;
 }
  
@@ -157,7 +157,7 @@ nav li:hover{
 
 nav a{
   color: black;
-  font-family: lato;
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
     color: #000000;
     
@@ -314,14 +314,14 @@ header{
     color: black;
     line-height: 40px;
     font-size: 18px;
-    font-family: lato;
+    
 }
 
 .p2{
     color: black;
     line-height: 30px;
     font-size: 20px;
-    font-family: lato;
+    
 }
 
 
@@ -331,14 +331,13 @@ header{
 }
 .content h2{
   font-size: 40px;
-    font-family: lato;
     margin-bottom: 10px;
     text-shadow: 2px 2px #eaeaea;
 }
 
 .line-1{
     letter-spacing: 2px;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     text-shadow: 2px 2px #eaeaea;
     width: 50px;
     border-right: 2px solid rgba(255,255,255,.75);
@@ -377,7 +376,7 @@ header{
 
 .contact h2 {
      font-size: 30px;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 10px;
     border-bottom: 0px #aaaaaa solid;
     width: 190px;
@@ -549,7 +548,7 @@ nav li:hover{
 
 nav a{
   color: black;
-  font-family: lato;
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
     color: #000000;
     
@@ -706,27 +705,27 @@ header{
     color: black;
     line-height: 40px;
     font-size: 18px;
-    font-family: lato;
+    
 }
 
 .p2{
     color: black;
     line-height: 30px;
     font-size: 20px;
-    font-family: lato;
+    
 }
 
 
 .content h2{
   font-size: 30px;
-    font-family: lato;
+    
     margin-bottom: 10px;
     text-shadow: 2px 2px #eaeaea;
 }
 
 .line-1{
     letter-spacing: 2px;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     text-shadow: 2px 2px #eaeaea;
     width: 40px;
     border-right: 2px solid rgba(255,255,255,.75);
@@ -765,7 +764,7 @@ header{
 
 .contact h2 {
      font-size: 30px;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 10px;
     border-bottom: 0px #aaaaaa solid;
     width: 190px;
@@ -930,7 +929,7 @@ nav li:hover{
 }
 
 nav a{
-  font-family: lato;
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
   color: #FFFFFF;
     
@@ -1092,27 +1091,27 @@ header p{
     color: black;
     line-height: 50px;
     font-size: 24px;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
 }
 
 .p2{
     color: black;
     line-height: 30px;
     font-size: 24px;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
 }
 
 
 .content h2{
   font-size: 40px;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 10px;
     text-shadow: 2px 2px #eaeaea;
 }
 
 .line-1{
     letter-spacing: 2px;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     text-shadow: 2px 2px #eaeaea;
     width: 18em;
     border-right: 2px solid rgba(255,255,255,.75);
@@ -1151,7 +1150,7 @@ header p{
 
 .contact h2 {
      font-size: 30px;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 10px;
     border-bottom: 0px #aaaaaa solid;
     width: 190px;
@@ -1245,14 +1244,12 @@ div.gallery img {
         
     }
     
-    
-    
   
 .flip-card {
   background-color: transparent;
   width: 33%;
   height: 400px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #000000;
   perspective: 1000px; 
     float: left;
 }
@@ -1270,7 +1267,6 @@ div.gallery img {
   transform: rotateY(180deg);
   
 }
-
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -1334,7 +1330,7 @@ div.gallery img {
 
 @media screen and (prefers-reduced-motion: reduce){
   html{
-      scroll-behavior: auto; /* Removes scroll animation */
+      scroll-behavior: auto; 
   }
 
   .skip a{
